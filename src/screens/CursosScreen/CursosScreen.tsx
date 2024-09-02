@@ -1,4 +1,3 @@
-import React from 'react'
 import { useMenuMobile } from '../../store/StoreMenu'
 
 function CursosScreen() {

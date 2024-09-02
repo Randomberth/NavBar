@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
 const MainTitle0 = "ACADEMIA BRASILEIRA ROTÁRIA DE LETRAS"
