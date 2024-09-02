@@ -1,0 +1,19 @@
+Sintaxis básica
+Rutas relativas: Las rutas se especifican en relación al archivo .gitignore.
+Caracteres comodín:
+*: Coincide con cualquier secuencia de caracteres.
+?: Coincide con cualquier carácter único.
+[]: Coincide con cualquier carácter dentro de los corchetes.
+**: Coincide con cualquier número de directorios.
+Ejemplo
+Supongamos que quieres ignorar la carpeta node_modules y todos los archivos que terminen en .log:
+
+node_modules/
+*.log
+Ejemplos más complejos
+Ignorar una carpeta y todos sus subdirectorios:
+build/
+Ignorar todos los archivos que empiecen con un punto:
+./*
+Ignorar archivos específicos dentro de una carpeta:
+config/*.json
