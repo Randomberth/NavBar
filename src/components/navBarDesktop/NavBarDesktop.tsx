@@ -1,15 +1,23 @@
 import { Link } from 'react-router-dom'
 
+const basePath = import.meta.env.BASE_URL + "assets/cash.svg";
+//const basePath = import.meta.env.BASE_URL; 
+
+
 const MainTitle0 = "ACADEMIA BRASILEIRA ROTÁRIA DE LETRAS"
 const MainTitle1 = "ABROL"
 
 
 function NavBarDesktop() {
+
+  
+  
   return (
-    <div className='flex w-[100%] h-[100%] items-center relative '>
+    <div className='flex w-[100%] h-[100%] items-center relative'>
       
       <img
-        src='./assets/ABROL_logo.webp'
+//        src='./assets/ABROL_logo.webp'
+        src={`${basePath}`}
         alt="Logo ACADEMIA BRASILEIRA ROTÁRIA DE LETRAS ABROL"
         width="100"
         height="100"
